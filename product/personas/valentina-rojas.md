@@ -38,3 +38,12 @@
 - Principal: notebook corporativa con Windows y segundo monitor en la oficina.
 - Secundario: celular Android para sumarse a reuniones en traslados o desde bodega.
 - Usa Teams de escritorio, Miro en el navegador y Excel de escritorio. Prefiere tener todo abierto en pestañas antes que aprender una herramienta nueva.
+
+## Contraste con evidencia real (2026-11-02)
+
+Sigue siendo una persona sintética. La evidencia está en `product/insights/2026-11-02-1357-contraste-creencias.md`, y dos personas derivadas precisan su comportamiento: `camila-herrera` (arma sesiones en un tablero) y `felipe-ortega` (conduce sobre el sistema de trabajo).
+
+- **Se sostiene:** dedica tiempo a reconstruir lo decidido a mano (Diego y Tomás, 20 minutos), dejó Whiteboard y no encontraba después lo que había hecho (Tomás, Sofía).
+- **Se sostiene en parte:** pierde 5 minutos en permisos. El 27% tarda 5 minutos o más, pero sin externos baja al 18%.
+- **No observado:** convocar unas 15 reuniones por semana (las entrevistas muestran 2 a 6 grandes) y dejar de pedirle herramientas a IT.
+- **Por verificar:** la evidencia real viene de empresas tecnológicas de 650 a 2.000 empleados, no de logística ni de una cuenta de 400 licencias.
