@@ -19,6 +19,8 @@ n: 10 entrevistas de exploración (26–34 min), 6 del panel y 4 del email
 
 # Insights de entrevistas: trabajo conjunto en reuniones de más de 5 personas
 
+> **Revisión del 2026-11-02.** Varios conteos de este análisis se corrigieron con las transcripciones y el CSV. Los principales: 4/10 abandonaron la pizarra (no 5), el artefacto preexistía en 6/10 (no 7), 7/10 dedican 10–60 min al cierre (no 20–60 en todos), hay 10 casos (8 con costo concreto y 2 de rediscusión; no 9 incidentes) y 8/10 desconocen alguna función según Q10 (no 3). Si hay diferencias con el texto de abajo, vale `product/insights/2026-11-02-1357-contraste-creencias.md`.
+
 **Lectura general.** La encuesta ya lo anticipaba y las entrevistas lo refuerzan: el dolor más caro no está en colaborar en vivo dentro o fuera de Teams, sino en **cerrar la reunión**. Hay que dejar registrado qué se decidió, quién lo hace, para cuándo y por qué, y que eso llegue a donde vive el trabajo. Aparece en las 10 entrevistas, con incidentes concretos que costaron entre días y semanas. La colaboración en vivo deja dolores reales, pero más chicos: tableros nativos que se pierden, no poder señalar y voces que no se escuchan.
 
 ## 1. La decisión se pierde entre la reunión y el trabajo, y lo arregla el líder a mano con 20–60 min por reunión
@@ -33,7 +35,7 @@ En las 10 entrevistas, lo decidido no queda capturado en el momento con responsa
 >
 > Otros costos: el cliente esperó 4 días (Andrés), estuvo 1 semana sin respuesta (Lucía), la campaña siguió 3 días más (Diego), un diseñador perdió 1 semana (Valeria) y hubo 2 días de arreglos más una guardia de fin de semana (Ricardo).
 
-**Recurrencia:** 10/10. Es el insight más fuerte del corpus. **Salvedad:** el tema no surgió solo. La guía lo pregunta en Q5 y Q6: las 10 entrevistas incluyen la pregunta por cómo quedó registrada la decisión, y al menos 7 piden además un caso de alguien que se enteró tarde o de algo hecho distinto de lo acordado. El 10/10 y los 9 incidentes muestran que el problema existe y lo que cuesta, no con qué frecuencia ocurre. La encuesta lo sostiene sin esa inducción: es el tema más mencionado en la pregunta abierta Q11 (30 de 95).
+**Recurrencia:** 10/10. Es el insight más fuerte del corpus. **Salvedad:** el tema no surgió solo. La guía lo pregunta en Q5 y Q6: las 10 entrevistas incluyen la pregunta por cómo quedó registrada la decisión, y al menos 7 piden además un caso de alguien que se enteró tarde o de algo hecho distinto de lo acordado. El 10/10 y los 9 incidentes muestran que el problema existe y lo que cuesta, no con qué frecuencia ocurre. La encuesta lo refuerza como la categoría más mencionada en la pregunta abierta Q11 (30 de 95; 22 en sentido estricto), aunque Q11 pregunta por "llegar a una decisión" y también orienta hacia el tema.
 
 ## 2. El recap de IA no sirve para cerrar: resume la conversación, no las decisiones, y a veces inventa decisiones
 

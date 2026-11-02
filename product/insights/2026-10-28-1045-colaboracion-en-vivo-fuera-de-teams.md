@@ -9,6 +9,8 @@ opportunity: colaboracion-fuera-de-teams
 
 # Análisis de encuesta: trabajo colaborativo fuera de Teams en reuniones de más de 5 participantes
 
+> **Revisión del 2026-11-02.** Las cifras se recalcularon desde el CSV y coinciden. Dos salvedades de lectura: las 30 menciones de "la decisión se pierde" en Q11 incluyen 8 sobre continuidad o material (22 en sentido estricto), y Q11 pregunta por "llegar a una decisión"; además, "No quedó registrado" (Q9) puede incluir a quienes lo registraron después (caso de R-024). Detalle en `product/insights/2026-11-02-1357-contraste-creencias.md`.
+
 ## Base y límites
 
 | | Email (canal propio) | Panel B2B | Total |
