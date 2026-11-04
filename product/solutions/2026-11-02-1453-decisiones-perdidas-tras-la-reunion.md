@@ -2,6 +2,7 @@
 opportunity: decisiones-perdidas-tras-la-reunion
 status: testing-several
 chosen: decision-fijada-en-vivo, cierre-tres-minutos
+tests: product/tests/2026-11-04-1036-decisiones-perdidas-tras-la-reunion.md
 ---
 
 # Soluciones para: lo decidido se pierde entre la reunión y el trabajo
@@ -67,9 +68,10 @@ Qué cambiaría esta decisión:
 - Si Ventas e IT dicen que esto ya es parte de Copilot, ninguna alternativa con desarrollo sirve para el objetivo de Max, y se replantea la oportunidad.
 
 ## A probar
-- A1 — "Se puede registrar responsable, fecha y motivo durante la reunión sin perder el hilo de la conducción": si es falso, la captura vuelve a quedar para después y A1 no supera la línea base. Lucía ya reporta ese costo. Se diseña en /design-solution-tests.
-- A3 — "Quien conduce mantiene el cierre aunque la reunión vaya pasada de hora": si es falso, la práctica no ocurre justo en las reuniones que más la necesitan. Varios entrevistados deciden solos cuando se acaba el tiempo. Se diseña en /design-solution-tests.
-- Entre ambas — si A3 por sí sola reduce las fallas de responsable y de versión tanto como A1: es lo que define si vale la pena construir.
+Diseño completo en [product/tests/2026-11-04-1036-decisiones-perdidas-tras-la-reunion.md](../tests/2026-11-04-1036-decisiones-perdidas-tras-la-reunion.md) (2026-11-04):
+- T1 — A1, #13 [usability]: usability-test en una reunión real de 5 entrevistados.
+- T2 — A3, #15 [usability]: practice-trial de 2 semanas con otros 5 entrevistados.
+- La comparación entre ambas (#14 frente a #16) queda como siguiente paso si pasan las dos.
 
 ## Propuesta de valor: A1. Decisión fijada en vivo
 Para Felipe Ortega y Camila Herrera (primary, derivadas), y Elena Vidal (primary, derivada, confianza baja).
