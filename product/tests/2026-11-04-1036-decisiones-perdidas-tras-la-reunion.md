@@ -1,7 +1,7 @@
 ---
 opportunity: decisiones-perdidas-tras-la-reunion
 solutions: product/solutions/2026-11-02-1453-decisiones-perdidas-tras-la-reunion.md
-status: designed
+status: ready
 ---
 
 # Pruebas de solución para: lo decidido se pierde entre la reunión y el trabajo
@@ -39,7 +39,7 @@ Se prueban A1 (decisión fijada en vivo) y A3 (cierre de tres minutos). La evide
 - **Next step if it passes:** probar la #14 [value] con un Wizard of Oz durante 2 semanas. Lo fijado en vivo se publica a mano detrás de escena en Jira, Slack o correo, y se miden dos cosas: los minutos posteriores del líder frente a su línea base de las entrevistas, y las preguntas de "¿qué se decidió?" que recibe.
 
 ## T2. cierre-tres-minutos: mantener el cierre cuando falta tiempo
-- **Test status:** designed
+- **Test status:** ready
 - **Belief under test:** #15 "Quien conduce mantiene el cierre aunque la reunión vaya pasada de hora. Se refuta si la mayoría lo omite cuando falta tiempo."
 - **Risk:** [usability]
 - **Test type:** practice-trial (una práctica aplicada en reuniones reales, sin software nuevo)
@@ -54,16 +54,16 @@ Se prueban A1 (decisión fijada en vivo) y A3 (cierre de tres minutos). La evide
   - Un guion de 3 líneas para abrir el cierre.
   - Una hoja de registro por reunión con: fecha, hora de término prevista, hora de término real, si a 5 minutos del término todavía se discutía, si se hizo el cierre (completo, parcial o no), quién lo hizo y si se delegó (eso alimenta el dato de A5).
   - Deja fuera a propósito cualquier herramienta, recordatorio automático o publicación en Jira.
-- **Material:** pendiente de /build-solution-test
-- **Duration:** 2 semanas de práctica por líder. Ventana del 2026-11-09 al 2026-11-20.
+- **Material:** [t2-cierre-tres-minutos](materials/t2-cierre-tres-minutos/): [plantilla, guion e inducción](materials/t2-cierre-tres-minutos/plantilla-guion-e-induccion.md), [hoja de registro del líder](materials/t2-cierre-tres-minutos/hoja-registro-lider.md), [verificación y consolidado](materials/t2-cierre-tres-minutos/verificacion-y-consolidado.md) (interno, no se comparte con los líderes), [mensaje de reclutamiento](materials/t2-cierre-tres-minutos/mensaje-reclutamiento.md)
+- **Duration:** 2 semanas de práctica por líder. Ventana del 2026-11-09 al 2026-12-04 (extendida el 2026-11-11 para que quepan 2 semanas completas por líder). La inducción se hace a más tardar el 2026-11-20; quien no alcance a empezar antes queda fuera.
 - **Signal and threshold:**
   - Una reunión cuenta como "pasada de hora" si terminó después de lo previsto o si a 5 minutos del término todavía se discutía.
-  - Señal: el porcentaje de esas reuniones en que se hizo el cierre completo (todas las decisiones leídas con responsable y fecha, y confirmadas).
+  - Señal: el porcentaje de esas reuniones en que se hizo el cierre completo (todas las decisiones leídas con responsable y fecha, y confirmadas). Se verifica con el cierre del chat: es completo si sus líneas son iguales al número de decisiones que anotó el líder, todas tienen responsable y fecha, y todas dicen "confirmado: sí". Si hay cierre en el chat pero falla alguna de esas condiciones, es parcial.
   - **Pasa** con 70% o más.
   - Si en total hay menos de 8 reuniones pasadas de hora, el resultado es inconclusive.
 - **Decision rule:**
   - **continue** si el cierre completo ocurre en 70% o más de las reuniones pasadas de hora.
-  - **change** si ocurre entre 50% y 69%, o si aparece sobre todo como cierre parcial. En ese caso se mueve el cierre a un punto fijo antes del final (por ejemplo, el minuto 50 de 60) y se vuelve a probar.
+  - **change** si ocurre entre 50% y 69%, o si aparece sobre todo como cierre parcial (entre las reuniones pasadas de hora hay más cierres parciales que completos). En ese caso se mueve el cierre a un punto fijo antes del final (por ejemplo, el minuto 50 de 60) y se vuelve a probar.
   - **discard** si ocurre en menos de 50%. La mayoría lo omite cuando falta tiempo, que es la refutación tal como está registrada.
 - **Expected provenance:** real
 - **Next step if it passes:** probar la #16 [value]. A las 48 horas de cada reunión con cierre, se pregunta a 2 asistentes qué se decidió, quién lo hace y para cuándo, y se comparan sus versiones con el cierre publicado. Ahí se compara con A1 (#14), que es lo que define si vale la pena construir.
